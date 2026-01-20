@@ -38,7 +38,7 @@ const AboutSection = () => {
           animate={isInView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.6 }}
         >
-          <p className="text-primary font-mono text-sm mb-2">01. About Me</p>
+          <p className="text-primary font-mono text-sm mb-2">About Me</p>
           <h2 className="text-3xl md:text-4xl font-bold mb-8">
             Building Digital Experiences
           </h2>
@@ -52,21 +52,23 @@ const AboutSection = () => {
             className="space-y-4 text-muted-foreground"
           >
             <p className="text-lg leading-relaxed">
-              I'm a <span className="text-foreground font-medium">Senior Software Engineer</span> at 
-              Tricon Infotech with a passion for creating exceptional digital experiences. 
-              Since July 2019, I've been leading critical projects in Bengaluru, India.
+              I build web applications that are easy to use, fast, and reliable. Most of my work has been
+              around improving existing systems—cleaning up legacy code, simplifying complex flows, and
+              making products more accessible and scalable.
             </p>
+
             <p className="leading-relaxed">
-              My expertise spans the full stack, from crafting responsive React.js frontends 
-              to building robust backend APIs with FastAPI and AWS services. I specialize in 
-              modernizing legacy systems, improving application performance, and implementing 
-              accessibility standards.
+              I enjoy working with React and modern UI patterns to create experiences that feel intuitive
+              and responsive. I care deeply about performance, code quality, and accessibility, and I like
+              leaving a codebase better than I found it.
             </p>
+
             <p className="leading-relaxed">
-              I thrive on solving complex problems and have a track record of delivering 
-              measurable results—from 30% maintainability improvements to 50% traffic increases 
-              through thoughtful architecture decisions.
+              I’ve also worked on integrating secure backend services for authentication and data flow,
+              which helps me think beyond just the UI and build features that work well end to end. Above
+              all, I enjoy solving real problems and building things that people find genuinely useful.
             </p>
+
           </motion.div>
 
           <motion.div

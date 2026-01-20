@@ -17,7 +17,7 @@ const experience = {
       description: "Reduced codebase by 20-40%, decreased bugs by 20-30%, improved accessibility compliance by 30%",
     },
     {
-      title: "Full Stack Development",
+      title: "Accessbility",
       description: "Managed EHR tool development resulting in 40% increase in utilization through improved accessibility and usability",
     },
     {
